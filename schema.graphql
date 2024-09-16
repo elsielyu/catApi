@@ -11,3 +11,7 @@ type Cat {
     message: String
     available: Boolean
 }
+
+type Mutation {
+    sendEmail(id: ID!, fromName: String, fromEmail: String, message: String): Boolean
+}
