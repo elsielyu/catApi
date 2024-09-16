@@ -18,6 +18,7 @@ module.exports = (sequelize, DataTypes) => {
     image: DataTypes.BLOB,
     message: DataTypes.STRING,
     available: DataTypes.BOOLEAN,
+    ownerId: DataTypes.INTEGER,
   }, {
     sequelize,
     modelName: 'cat',
