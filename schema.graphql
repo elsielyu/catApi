@@ -1,0 +1,13 @@
+type Query  {
+   test: String
+   getCat: Cat
+   getCats: [Cat]
+   getAvailableCats: [Cat]
+}
+
+type Cat {
+    name: String
+    image: String
+    message: String
+    available: Boolean
+}
